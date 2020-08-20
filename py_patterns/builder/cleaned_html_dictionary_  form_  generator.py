@@ -49,7 +49,7 @@ def build_html(field_list):
     :param field_list:
     :return: html file
     """
-    with open("../outputs/gen_html.html", "w") as f:
+    with open("../../outputs/gen_html.html", "w") as f:
         f.write("<html><body>{}</body></html>".format(
             generate_webform(
                 field_list
